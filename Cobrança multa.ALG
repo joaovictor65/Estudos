@@ -1,14 +1,14 @@
-algoritmo "semnome"
+algoritmo "Cobran√ßa multa"
 var
   velo , cobranca : inteiro
 inicio
       escreva ("qual velocidade o carro passou? :")
       leia (velo)
       se ( velo <= 80) entao
-         escreva ("Parabens, vocÍ est· dentro do limite de velocidade")
+         escreva ("Parabens, voc√™ est√° dentro do limite de velocidade")
       senao
          cobranca <- ((velo - 80)* 5)
-         escreva ("VocÍ est· acima de velocidade e tera que pagar R$:",cobranca)
+         escreva ("Voc√™ est√° acima de velocidade e tera que pagar R$:",cobranca)
       fimse
 
 
