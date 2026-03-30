@@ -11,12 +11,12 @@ Inicio
       imc <- ( m/(a ^ 2))
       
       se (imc <= 25) e ( imc >= 18.5) entao
-         escreva ("você está dentro do peso!")
+         escreva ("vocÃª estÃ¡ dentro do peso!")
          senao
          se (imc > 25 ) entao
-            escreva ("voce está acima do peso!")
+            escreva ("voce estÃ¡ acima do peso!")
             senao
-            escreva ("você está abaixo do peso!")
+            escreva ("vocÃª estÃ¡ abaixo do peso!")
          fimse
 
       fimSe
