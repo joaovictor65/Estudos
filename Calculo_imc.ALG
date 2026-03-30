@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Calculo imc"
 Var
    m: inteiro
    a, imc: real
