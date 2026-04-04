@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "DOLAR_E_EURO_PARA_REAL_CONVERSOR)"
 var
    dor,dolar, euro, reais: real
    teste: caractere
@@ -9,10 +9,10 @@ inicio
     escreval ("-------------------------------------------")
     escreval ("               DOLAR PARA REAl")
     escreval ("-------------------------------------------")
-    escreva  ("Quantos dolares você quer converter?: :")
+    escreva  ("Quantos dolares vocÃª quer converter?: :")
     leia (dolar)
     reais <- (dolar * 5.16)
-    Escreval ("U$:",dolar," dolares, são equivalestes a R$:",reais," reais") 
+    Escreval ("U$:",dolar," dolares, sÃ£o equivalestes a R$:",reais," reais") 
 fimprocedimento
 
 procedimento ceu ()
@@ -21,10 +21,10 @@ inicio
     escreval ("--------------------------------------------")
     escreval ("               EURO PARA REAL")
     escreval ("--------------------------------------------")
-    escreva  ("Quantos euros você quer converter? :")
+    escreva  ("Quantos euros vocÃª quer converter? :")
     leia (euro)
     reais <- (euro * 5.95)
-    Escreval ("€:",euro," , são equivalestes a R$:",reais," reais")
+    Escreval ("â‚¬:",euro," , sÃ£o equivalestes a R$:",reais," reais")
 
 fimprocedimento
 
@@ -32,7 +32,7 @@ inicio
       cont <- 0
       repita
             Limpatela
-            Escreval ("Você quer converter Euros ou Dolares?")
+            Escreval ("VocÃª quer converter Euros ou Dolares?")
             escreval ("   [1] Dolares")
             escreval ("   [2] Euros  ")
             Escreva  ("Digite aqui: ")
