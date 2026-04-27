@@ -87,38 +87,3 @@ processarPedido(produtos, cupons, pedido);
 
 
 
-
-/* Dentro dela:
-🔁 Percorrer os itens (for)
-
-Para cada item:
-
-Buscar produto
-Validar (if):
-Produto existe?
-Tem estoque suficiente?
-
-📤 Se válido:
-Subtrair do estoque
-Somar subtotal (preco * quantidade)
-
-❌ Se inválido:
-Mostrar erro e ignorar item
-
-💸 Aplicar cupom:
-Buscar cupom
-Se existir → aplicar desconto
-Se não → mostrar "cupom inválido"
-
-🚚 Calcular frete:
-Usar função calcularFrete
-
-📊 Resultado final:
-
-Mostrar:
-
-Subtotal
-Desconto
-Frete
-Total final
-*/
